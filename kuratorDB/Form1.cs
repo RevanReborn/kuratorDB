@@ -41,7 +41,7 @@ namespace kuratorDB
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //add code
             interfaceChangeOnLogin();
             
         }
@@ -50,18 +50,13 @@ namespace kuratorDB
         {
             panel1.Visible = false;
             panel2.Visible = true;
-            //panel2.Dock = DockStyle.Left;
-            //panel3.Visible = true;
-            //panel3.Dock = DockStyle.Bottom;
             dataGridView1.Visible = true;
-            //dataGridView1.Dock = DockStyle.Fill;
         }
 
         private void interfaceChangeOnLogout()
         {
             panel1.Visible = true;
             panel2.Visible = false;
-            //panel3.Visible = false;
             dataGridView1.Visible = false;
         }
 
@@ -104,6 +99,16 @@ namespace kuratorDB
                 }
             }
             return dt;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SaveTable()
+        {
+
         }
     }
 }
